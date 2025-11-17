@@ -1,0 +1,19 @@
+$TTL 10d
+
+$ORIGIN example.home.
+
+@           IN      SOA     ns.example.home.        info.example.home (
+                            2024052901      ; serial
+                            12h             ; refresh
+                            15m             ; retry
+                            3w              ; expire
+                            2h              ; minimum ttl 
+                            )
+
+            IN      NS      ns.example.home.
+ns          IN      A       192.168.158.72
+
+; -- add dns records below
+
+
+suhani    IN      A       192.168.158.72
