@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  bind9:
+    container_name: bind9-dns
+    image: ubuntu/bind9:latest
+    environment:
+      - TZ=Asia/Kolkata
+      - BIND9_USER=root
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp" # have to add both separately; by default, only TCP is enabled in docker port mapping.
+    volumes:
+      - ./config:/etc/bind
+      - .cache:/var/cache/bind
+      - .records:/var/lib/bind
+    restart: unless-stopped
+    networks:
+      - bind-network
+
+networks:
+  bind-network:
+    driver: bridge
