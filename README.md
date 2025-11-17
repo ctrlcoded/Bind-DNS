@@ -38,7 +38,7 @@ zone "example.home" IN {
     - ```
         ; -- add dns records below
 
-        sankalp    IN      A       192.168.158.72
+        suhani    IN      A       192.168.158.72
         ```
         change "suhani" and its ip to your desired values and add A name records as per your need
 
@@ -60,7 +60,7 @@ ns          IN      A       172.21.30.44
 
 ; -- add dns records below
 
-sankalp    IN      A       192.168.0.132
+suhani    IN      A       192.168.0.132
 ```
 
 
