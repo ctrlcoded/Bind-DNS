@@ -347,8 +347,8 @@ Contributions are welcome! To contribute:
 ## 📧 Support
 
 For issues, questions, or suggestions:
-- Open an [Issue](https://github.com/Illucious/BIND-DNS-server/issues)
-- Submit a [Pull Request](https://github.com/Illucious/BIND-DNS-server/pulls)
+- Open an [Issue](https://github.com/ctrlcoded/Bind-DNS/issues)
+- Submit a [Pull Request](https://github.com/ctrlcoded/Bind-DNS/pulls)
 
 ---
 
