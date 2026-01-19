@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker)](https://www.docker.com/)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
@@ -51,8 +52,8 @@ This project provides a fully containerized BIND9 DNS server setup using Docker 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Illucious/BIND-DNS-server.git
-   cd BIND-DNS-server
+   git clone https://github.com/ctrlcoded/Bind-DNS.git
+   cd Bind-DNS
    ```
 
 2. **Update network configuration** (see [Configuration](#-configuration) section)
@@ -330,7 +331,6 @@ docker-compose exec bind9 chown -R bind:bind /var/cache/bind /var/lib/bind
 - [RFC 1035 - DNS Protocol](https://tools.ietf.org/html/rfc1035)
 
 ---
-
 
 ## 🤝 Contributing
 
