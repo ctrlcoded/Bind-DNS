@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker)](https://www.docker.com/)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 
@@ -332,11 +331,6 @@ docker-compose exec bind9 chown -R bind:bind /var/cache/bind /var/lib/bind
 
 ---
 
-## ⚖️ License
-
-This project is licensed under the **MIT License** - see the LICENSE file for details.
-
----
 
 ## 🤝 Contributing
 
